@@ -7,7 +7,7 @@
                   content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NumbSilver</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./app/css/index.css">
 </head>
 <body>
     
@@ -17,7 +17,7 @@
       <aside> 
         <div>
           <div class="issue">NumbSilver</div>
-          <div class="date">孙齐浓</div>
+          <div class="date">SQN</div>
           <div class="edition">1 August ，1996</div>
         </div>
       </aside>
@@ -27,11 +27,11 @@
         <p>多模态核磁共振脑图像为我们探索脑神经提供了从结构到功能的影像学信息,许多研究表明一些精神性或神经性疾病都会引起脑结构和脑功能的变化（如自闭症谱系障碍(ASD)，阿尔兹海默症（AD）和轻度认知障碍(MCI)）,这些变化可能存在内在的联系。</p>
         <p>基于pytorch、VM卷积神经网络，利用递归级联的思想完成低分辨率的功能图像（fMRI)要与高分辨率的解剖图像（sMRI）配准融合，完成人脑脑功能和脑结构的多模态融合，针对ABIDE和ADNI数据集完成训练。</p>
         <p>基于数据驱动的方式完成脑功能分区，使用多模态配准的结果完成脑网络构建以及自闭症疾病融合分析。在同一副配准图像上同时获得功能分区和结构分区。</p>
-      </div><a class="terrarium" href="./registration.html" target="_blank">
-        <figure><img src="./img/brain.jpg"/>
+      </div><a class="terrarium" href="./app/registration.html" target="_blank">
+        <figure><img src="./app/img/brain.jpg"/>
           <figcaption>多模态脑图谱配准的主要流程</figcaption>
           <!-- 这个位置的href可以换成流程图的动态显示 -->
-        </figure></a><a class="item-with-image plan span--2 long--2" href="https://codepen.io/oliviale/full/moLrBq" target="_blank"><img src="./img/reg_flow.png"/>
+        </figure></a><a class="item-with-image plan span--2 long--2" href="https://codepen.io/oliviale/full/moLrBq" target="_blank"><img src="./app/img/reg_flow.png"/>
         <h4> 多 模 态 配 准 的 网 络 结 构</h4>
         <div class="multi-column">
           <p>与同模态配准相比，多模态配准存在携带信息较多，影像序列存在时间差异，功能影像和结构影像像素级别差异性较大等问题。为解决这些问题，提出了基于多模态融合的影响配准方法，将时序序列在时间维度进行采样，保留功能影像的时序信息，同时提高功能影像精度。针对多模态影像之间差异较大的问题，建立了多个配准子网，在配准网络中同时完成刚性配准和非刚性配准，减少图像预处理的难度，使用基于递归级联的配准网络训练方法，进行多次递归，减少了因差异化而为配准网络带来的训练难度。针对多模态图像携带信息多样化问题，在训练中引入LPBA概率脑图谱，完成多模影像与现有脑图谱的融合，为配准网络的训练结果提供了更好的解释性。</p>
