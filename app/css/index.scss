@@ -1,13 +1,13 @@
 :root {
     --font: "EB Garamond", serif;
-    --font-title: "Playfair Display", serif;
+    --font-title: "微软雅黑","Playfair Display", serif;
     --font-sans-serif: "Manrope", sans-serif;
     --black: #1c1f33;
     --black--acc: #222;
     --gray: #eee;
     --gray-1: #ededed;
   }
-  
+
   * {
     box-sizing: border-box;
   }
@@ -301,6 +301,8 @@
     margin-bottom: 0.8rem;
   }
   
+
+
   .hogwarts {
     text-align: center;
     height: 100%;
@@ -335,13 +337,14 @@
     position: relative;
   }
   .hogwarts__image img {
-    transform: rotate(60deg);
-    height: 150%;
+    overflow: hidden;
+    transform: rotate(0deg);
+    height: 99%;
     position: absolute;
     border: 0;
-    width: 250%;
-    left: -70%;
-    bottom: -35%;
+    width: 97%;
+    left: 2px;
+    bottom: 0;
   }
   @media (min-width: 700px) and (max-width: 1024px) {
     .hogwarts__image img {
