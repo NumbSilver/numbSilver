@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.bootcdn.net/ajax/libs/minireset.css/0.0.2/minireset.css" rel="stylesheet">
+    <meta name="viewport"
+                  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NumbSilver</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    
+<div class="main__wrapper">
+    <main>
+      <h1>个人主页</h1>
+      <aside> 
+        <div>
+          <div class="issue">NumbSilver</div>
+          <div class="date">孙齐浓</div>
+          <div class="edition">1 August ，1996</div>
+        </div>
+      </aside>
+      <h2 class="title--large main-title">基于多模态配准的脑功能融合分析</h2>
+      <div class="main-text multi-column">
+        <p>精神性疾病不只在中国，已成为当今世界最常见的一种疾病，并且正以较快的速度增长，成为严重威胁人类健康和影响社会安定的重要因素。</p>
+        <p>多模态核磁共振脑图像为我们探索脑神经提供了从结构到功能的影像学信息,许多研究表明一些精神性或神经性疾病都会引起脑结构和脑功能的变化（如自闭症谱系障碍(ASD)，阿尔兹海默症（AD）和轻度认知障碍(MCI)）,这些变化可能存在内在的联系。</p>
+        <p>基于pytorch、VM卷积神经网络，利用递归级联的思想完成低分辨率的功能图像（fMRI)要与高分辨率的解剖图像（sMRI）配准融合，完成人脑脑功能和脑结构的多模态融合，针对ABIDE和ADNI数据集完成训练。</p>
+        <p>基于数据驱动的方式完成脑功能分区，使用多模态配准的结果完成脑网络构建以及自闭症疾病融合分析。在同一副配准图像上同时获得功能分区和结构分区。</p>
+      </div><a class="terrarium" href="./registration.html" target="_blank">
+        <figure><img src="./img/brain.jpg"/>
+          <figcaption>多模态脑图谱配准的主要流程</figcaption>
+          <!-- 这个位置的href可以换成流程图的动态显示 -->
+        </figure></a><a class="item-with-image plan span--2 long--2" href="https://codepen.io/oliviale/full/moLrBq" target="_blank"><img src="./img/reg_flow.png"/>
+        <h4> 多 模 态 配 准 的 网 络 结 构</h4>
+        <div class="multi-column">
+          <p>与同模态配准相比，多模态配准存在携带信息较多，影像序列存在时间差异，功能影像和结构影像像素级别差异性较大等问题。为解决这些问题，提出了基于多模态融合的影响配准方法，将时序序列在时间维度进行采样，保留功能影像的时序信息，同时提高功能影像精度。针对多模态影像之间差异较大的问题，建立了多个配准子网，在配准网络中同时完成刚性配准和非刚性配准，减少图像预处理的难度，使用基于递归级联的配准网络训练方法，进行多次递归，减少了因差异化而为配准网络带来的训练难度。针对多模态图像携带信息多样化问题，在训练中引入LPBA概率脑图谱，完成多模影像与现有脑图谱的融合，为配准网络的训练结果提供了更好的解释性。</p>
+        </div></a><a class="hogwarts" href="https://codepen.io/oliviale/full/MZZYyO" target="_blank">
+        <div class="hogwarts__title">50% Off Hogwarts Express tickets</div>
+        <div class="hogwarts__image"> <span>Limited time offer</span><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/showcase-hogwarts.svg"/></div></a><a class="item-with-image pasta with-border" href="https://codepen.io/oliviale/full/zYvxXWw" target="_blank">
+        <h4>A pasta menu</h4>
+        <p>Everybody loves pasta. It's impossible to not love them, so here are 15 recipes, served with GSAP. Note the easter egg — the menu icon changes according to the pasta that you choose.</p></a><a class="item-with-image magazine with-border" href="https://codepen.io/oliviale/full/GRKQoKM" target="_blank">
+        <h4>Marvel at a magazine</h4>
+        <p>A tribute of sorts to an era of cool superhero movies, this is a Marvel-themed magazine! Recommended, because it took 45 hours, so you know some serious dedication has been poured into this.</p></a><a class="item-with-image style" href="https://codepen.io/collection/XJyNPm" target="_blank">
+        <h4>Let's adopt, don't shop.</h4>
+        <p>Explore a style guide and various page layouts for a pet adoption site in the<em>Style Guide</em>
+          collection. Inspired by the<em>Atomic Design</em>
+          principle, this 8-pen collection includes a 404 page concept, an admin dashboard and what a Twitter user calls a 'media card zen garden'. Each pen comes with five (yes, five) color themes, including the precious dark mode.
+        </p></a><a class="item-with-image toggles" href="https://codepen.io/oliviale/full/xxboXzo" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/showcase-toggle.gif"/>
+        <h4>Toggles</h4>
+        <p>Eight playful toggles to toggle on and off for your amusement. Is it possible to use these on your site and still adhere to assessibility rules? No. But there's a really cute dog one you<em>have</em>to see.</p></a><a class="menu" href="https://codepen.io/oliviale/full/LYYrKMV" target="_blank">
+        <figure><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/showcase-menu.jpg"/>
+          <figcaption>See the new and improved menu for Toasty!</figcaption>
+        </figure></a><a class="social" href="https://codepen.io/oliviale/full/QWjjrZX" tagrget="_blank"><img class="social__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/showcase-social.gif"/>
+        <div class="social__subtitle">World News</div>
+        <div class="social__content">Looks like Covid-19 is gonna be around for a while so here is another friendly reminder to practice social distancing. Oh, and wear a mask!</div></a>
+      <div class="item-with-image cssgrid-collection"><a class="cssgrid-collection__image" href="https://codepen.io/collection/DQvYpQ" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/showcase-co-grid.jpg"/></a>
+        <div class="cssgrid-collection__content">
+          <h4> <a href="https://codepen.io/collection/DQvYpQ" target="_blank">More CSS Grid things like this one. Shelves, coupons and more!</a></h4>
+          <div class="multi-column-3">
+            <p>Get your fill of more CSS Grid items in this collection. There are a total of 32 pens to date... well, 33, if you count this one too. What can you expect in this collection? The hidden gems, in my totally unbiased opinion, are<a href="https://codepen.io/oliviale/full/wbyVWr" target="_blank">the recreation of the Pac-Man layout</a>
+              and<a href="https://codepen.io/oliviale/pen/wbyVWr" target="_blank">coupons inspired by junk mail</a>. A lot of joke items of things that shouldn't be done in CSS Grid, such as<a href="https://codepen.io/oliviale/full/PXGgMG" target="_blank">a shelf</a>?<a href="https://codepen.io/oliviale/full/qggOog" target="_blank">Bathroom tiles wtf</a>? and<a href="https://codepen.io/oliviale/full/bOWqbj" target="_blank">makeup palettes</a>. If you are a cultured person, you will have a chance to enjoy a couple of pens inspired by<a href="https://codepen.io/oliviale/full/JxVZpX" target="_blank">Harry Potter</a>and<a href="https://codepen.io/oliviale/full/RwNdeeQ" target="_blank">Pokemon.</a>
+              On the rare occasion that you are looking at this profile for something you can use in production, you really shouldn't. But, there are<em>some</em>real-world applications, such as<a href="https://codepen.io/oliviale/full/GPXozx" target="_blank">the recipe layout</a>,<a href="https://codepen.io/oliviale/full/pqoEoJ" target="_blank">the product catalog</a>, and<a href="https://codepen.io/oliviale/full/XyqQYL" target="_blank">color palettes for a style guide</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <h3 class="title--big">Hot this month</h3><a class="codepen-item pie" href="https://codepen.io/oliviale/full/BaovGmg" target="_blank"><img class="pie__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/showcase-pie.jpg"/>
+          <div class="pie__subtitle">Food</div>
+          <div class="pie__content">
+            <h4>Pies for everyone!</h4>
+            <p>No man is left behind. There's infinite pie with this one div and a repeating background.</p>
+          </div></a><a class="sidebar-item captcha" href="https://codepen.io/oliviale/full/RwWdNRd" target="_blank">
+          <h5>Frustrated designer runs amok with Captcha ideas</h5>
+          <p>From Tic Tac Toe to solving meme-based questions, this is a different take on how web captchas should be. "I have not successfully picked out all photos of a truck on the first try. Something's gotta change," says the designer, who has requested to remain anonymous.</p></a><a class="sidebar-item slack-ui with-border" href="https://codepen.io/oliviale/full/GRpvNBa" target="_blank">
+          <h5>Slack UI gets reverse engineered</h5>
+          <p>Another valiant effort to reverse engineer a web app. However, the UI is repurposed to showcase Codepens instead of mock conversations. This is a codepen showcase inception situation.</p></a><a class="workout" href="https://codepen.io/oliviale/full/RwWKybY" target="_blank">
+          <div class="workout__image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/showcase-workout.jpg" alt="Workout"/></div>
+          <div class="workout__blurb">Always failing to keep track of your workouts?</div>
+          <div class="workout__title">Use this tool!</div></a>
+      </div>
+    </main>
+  </div>
+    
+</body>
+</html>
